@@ -1,0 +1,1 @@
+export const PORTAL_MODAL_ID = "modal";

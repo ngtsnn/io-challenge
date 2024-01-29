@@ -1,16 +1,10 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import { useRouter } from "next/router";
-import { Button } from "@/atoms/Button";
 import { LinkBtn } from "@/atoms/LinkBtn";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 
   return (
     <main
-      className={`flex flex-col items-center justify-center min-h-screen p-24 ${inter.className}`}
+      className={`flex flex-col items-center justify-center min-h-screen p-24`}
     >
       <div
         className="flex items-center p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
